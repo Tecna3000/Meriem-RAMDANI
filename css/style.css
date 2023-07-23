@@ -232,7 +232,6 @@ textarea {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 90rem;
     width: 92%; }
     .home-hero__content {
       display: flex;
@@ -247,6 +246,7 @@ textarea {
       flex: 1;
       display: flex;
       justify-content: flex-end;
+      
     }
     
     .profile-photo {
