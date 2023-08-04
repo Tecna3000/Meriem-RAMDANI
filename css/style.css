@@ -156,12 +156,12 @@ textarea {
     padding: 1.5rem 5rem;
     font-size: 1.6rem; }
   .btn--theme {
-    background: #0062b9;
+    background: #ff34ccef;
     color: #fff; }
   .btn--theme-inv {
-    color: #0062b9;
+    color: #ff34ccef;
     background: #fff;
-    border: 2px solid #0062b9;
+    border: 2px solid #ff34ccef;
     box-shadow: none;
     padding: calc(1.5rem - 2px) calc(5rem - 2px); }
 
@@ -186,7 +186,7 @@ textarea {
 
 .home-hero {
   color: #fff;
-  background: linear-gradient(to right, #ff34ccef, rgba(255, 102, 242, 0.8)), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, #fc8eac, #FF69B4), url(../../assets/svg/common-bg.svg);
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -196,15 +196,6 @@ textarea {
     .home-hero {
       height: unset;
       min-height: unset; } }
-  .home-hero__socials {
-    position: absolute;
-    top: 50%;
-    border: 2px solid #eee;
-    border-left: 2px solid #eee;
-    transform: translateY(-50%); }
-    @media only screen and (max-width: 56.25em) {
-      .home-hero__socials {
-        display: none; } }
   .home-hero__mouse-scroll-cont {
     position: absolute;
     bottom: 3%;
@@ -220,7 +211,7 @@ textarea {
     display: block;
     padding: 1.2rem;
     border-bottom: 2px solid #eee;
-    transition: background .3s; }
+    transition: background.3s; }
     .home-hero__social-icon-link:hover {
       background: rgba(255, 255, 255, 0.1); }
     .home-hero__social-icon-link--bd-none {
@@ -239,6 +230,7 @@ textarea {
     }
     
     .home-hero__text {
+      text-align: center;
       flex: 1;
     }
     
@@ -255,7 +247,56 @@ textarea {
       border-radius: 50%;
       object-fit: cover;
       border: 5px solid #fff; 
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: add a shadow effect */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    }
+        
+    .logo {
+      width: 300px; 
+      height: 300px;; 
+      margin: auto;
+      margin-top: 0%;
+    }
+    .typewriter {
+      overflow: hidden; /* Pour cacher le texte supplémentaire */
+      border-right: 0.15em  solid white; /* Effet du curseur de la machine à écrire */
+      white-space: nowrap; /* Empêche le texte de passer à la ligne */
+      margin: 0 auto; /* Pour centrer le texte */
+      letter-spacing: 0.15em; /* Espacement entre les lettres */
+      animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+      font-family:'Courier New', Courier, monospace;
+      font-size: 24px;
+      margin-top: 10%;
+
+    }
+
+    /* Animation du texte de la machine à écrire */
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
+
+    /* Animation du curseur clignotant */
+    @keyframes blink-caret {
+      from,
+      to {
+        border-color: transparent;
+      }
+      50% {
+        border-color: white;
+      }
+    }
+
+    .no-scroll {
+      overflow: hidden;
+    }
+    .welcome-text {
+      font-size: 24px;
+      margin-top: 2%;
+      font-family: 'Source Sans Pro', sans-serif;
     }
     
     @media only screen and (max-width: 37.5em) {
@@ -271,8 +312,40 @@ textarea {
     margin-top: 5rem;
     text-align: center; }
 
+/* Le reste de votre feuille de style */
+/* Style pour les icônes sociales */
+.home-hero__social-icon-link {
+  display: inline-block;
+  padding: 1.2rem;
+  border-bottom: 2px solid #eee;
+  transition: background 0.3s;
+}
+
+.home-hero__social-icon {
+  font-size: 2.5rem;
+  color: #777;
+}
+
+.home-hero__social-icon-link:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+
+/* Ajouter les styles pour aligner les logos horizontalement */
+.home-hero__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-hero__socials {
+  display: flex;
+  padding: auto;
+  margin-top: 10px;
+}
+
 .about {
-  background: #fafafa; }
+  background: #fc8eac; }
   .about__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -290,7 +363,7 @@ textarea {
           font-size: 2.4rem; } }
     .about__content-details-para {
       font-size: 1.8rem;
-      color: grey;
+      color: white;
       max-width: 60rem;
       line-height: 1.7;
       margin-bottom: 1rem; }
@@ -300,6 +373,9 @@ textarea {
       .about__content-details-para:last-child {
         margin-bottom: 4rem; }
 
+.projects{
+  background: #ffd9dfff; ;
+}
 .projects__row {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
@@ -577,7 +653,7 @@ textarea {
     font-weight: 700;
     transition: color .3s; }
     .header__link:hover {
-      color: #0062b9; }
+      color: #ff34ccef; }
     @media only screen and (max-width: 56.25em) {
       .header__link {
         padding: 3rem 1.8rem;
@@ -693,7 +769,7 @@ textarea {
     background: rgba(153, 153, 153, 0.2);
     border-radius: 5px;
     font-weight: 600;
-    color: #777; }
+    color: white; }
 
 .mouse {
   width: 25px;

@@ -1,1 +1,62 @@
-﻿<svg xmlns='http://www.w3.org/2000/svg' width='100%'><defs><linearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%' gradientTransform='rotate(240)'><stop offset='0' stop-color='#ffffff'/><stop offset='1' stop-color='#ffffff'/></linearGradient><pattern patternUnits='userSpaceOnUse' id='b' width='540' height='450' x='0' y='0' viewBox='0 0 1080 900'><g fill-opacity='0.1'><polygon fill='#444' points='90 150 0 300 180 300'/><polygon points='90 150 180 0 0 0'/><polygon fill='#AAA' points='270 150 360 0 180 0'/><polygon fill='#DDD' points='450 150 360 300 540 300'/><polygon fill='#999' points='450 150 540 0 360 0'/><polygon points='630 150 540 300 720 300'/><polygon fill='#DDD' points='630 150 720 0 540 0'/><polygon fill='#444' points='810 150 720 300 900 300'/><polygon fill='#FFF' points='810 150 900 0 720 0'/><polygon fill='#DDD' points='990 150 900 300 1080 300'/><polygon fill='#444' points='990 150 1080 0 900 0'/><polygon fill='#DDD' points='90 450 0 600 180 600'/><polygon points='90 450 180 300 0 300'/><polygon fill='#666' points='270 450 180 600 360 600'/><polygon fill='#AAA' points='270 450 360 300 180 300'/><polygon fill='#DDD' points='450 450 360 600 540 600'/><polygon fill='#999' points='450 450 540 300 360 300'/><polygon fill='#999' points='630 450 540 600 720 600'/><polygon fill='#FFF' points='630 450 720 300 540 300'/><polygon points='810 450 720 600 900 600'/><polygon fill='#DDD' points='810 450 900 300 720 300'/><polygon fill='#AAA' points='990 450 900 600 1080 600'/><polygon fill='#444' points='990 450 1080 300 900 300'/><polygon fill='#222' points='90 750 0 900 180 900'/><polygon points='270 750 180 900 360 900'/><polygon fill='#DDD' points='270 750 360 600 180 600'/><polygon points='450 750 540 600 360 600'/><polygon points='630 750 540 900 720 900'/><polygon fill='#444' points='630 750 720 600 540 600'/><polygon fill='#AAA' points='810 750 720 900 900 900'/><polygon fill='#666' points='810 750 900 600 720 600'/><polygon fill='#999' points='990 750 900 900 1080 900'/><polygon fill='#999' points='180 0 90 150 270 150'/><polygon fill='#444' points='360 0 270 150 450 150'/><polygon fill='#FFF' points='540 0 450 150 630 150'/><polygon points='900 0 810 150 990 150'/><polygon fill='#222' points='0 300 -90 450 90 450'/><polygon fill='#FFF' points='0 300 90 150 -90 150'/><polygon fill='#FFF' points='180 300 90 450 270 450'/><polygon fill='#666' points='180 300 270 150 90 150'/><polygon fill='#222' points='360 300 270 450 450 450'/><polygon fill='#FFF' points='360 300 450 150 270 150'/><polygon fill='#444' points='540 300 450 450 630 450'/><polygon fill='#222' points='540 300 630 150 450 150'/><polygon fill='#AAA' points='720 300 630 450 810 450'/><polygon fill='#666' points='720 300 810 150 630 150'/><polygon fill='#FFF' points='900 300 810 450 990 450'/><polygon fill='#999' points='900 300 990 150 810 150'/><polygon points='0 600 -90 750 90 750'/><polygon fill='#666' points='0 600 90 450 -90 450'/><polygon fill='#AAA' points='180 600 90 750 270 750'/><polygon fill='#444' points='180 600 270 450 90 450'/><polygon fill='#444' points='360 600 270 750 450 750'/><polygon fill='#999' points='360 600 450 450 270 450'/><polygon fill='#666' points='540 600 630 450 450 450'/><polygon fill='#222' points='720 600 630 750 810 750'/><polygon fill='#FFF' points='900 600 810 750 990 750'/><polygon fill='#222' points='900 600 990 450 810 450'/><polygon fill='#DDD' points='0 900 90 750 -90 750'/><polygon fill='#444' points='180 900 270 750 90 750'/><polygon fill='#FFF' points='360 900 450 750 270 750'/><polygon fill='#AAA' points='540 900 630 750 450 750'/><polygon fill='#FFF' points='720 900 810 750 630 750'/><polygon fill='#222' points='900 900 990 750 810 750'/><polygon fill='#222' points='1080 300 990 450 1170 450'/><polygon fill='#FFF' points='1080 300 1170 150 990 150'/><polygon points='1080 600 990 750 1170 750'/><polygon fill='#666' points='1080 600 1170 450 990 450'/><polygon fill='#DDD' points='1080 900 1170 750 990 750'/></g></pattern></defs><rect x='0' y='0' fill='url(#a)' width='100%' height='100%'/><rect x='0' y='0' fill='url(#b)' width='100%' height='100%'/></svg>
+﻿<svg xmlns='http://www.w3.org/2000/svg' width='100%' viewBox='0 0 1080 900'>
+  <defs>
+    <linearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%' gradientTransform='rotate(240)'>
+      <stop offset='0' stop-color='#ffffff'/>
+      <stop offset='1' stop-color='#ffffff'/>
+    </linearGradient>
+    <pattern patternUnits='userSpaceOnUse' id='b' width='540' height='450' x='0' y='0' viewBox='0 0 1080 900'>
+      <!-- Pétales de roses -->
+      <g fill-opacity='0.1'>
+        <!-- Pétale 1 -->
+        <path fill='#444' d='M90 150 Q0 300 180 300 Q90 200 90 150'/>
+        <path fill='#AAA' d='M270 150 Q360 0 180 0 Q270 100 270 150'/>
+        <path fill='#DDD' d='M450 150 Q360 300 540 300 Q450 200 450 150'/>
+        <path fill='#999' d='M450 150 Q540 0 360 0 Q450 100 450 150'/>
+        <path fill='#DDD' d='M630 150 Q540 300 720 300 Q630 200 630 150'/>
+        <path fill='#444' d='M810 150 Q720 300 900 300 Q810 200 810 150'/>
+        <path fill='#FFF' d='M810 150 Q900 0 720 0 Q810 100 810 150'/>
+        <path fill='#DDD' d='M990 150 Q900 300 1080 300 Q990 200 990 150'/>
+        
+        <!-- Pétale 2 -->
+        <path fill='#444' d='M90 450 Q0 600 180 600 Q90 500 90 450'/>
+        <path fill='#666' d='M270 450 Q180 600 360 600 Q270 500 270 450'/>
+        <path fill='#AAA' d='M450 450 Q360 600 540 600 Q450 500 450 450'/>
+        <path fill='#999' d='M450 450 Q540 300 360 300 Q450 500 450 450'/>
+        <path fill='#999' d='M630 450 Q540 600 720 600 Q630 500 630 450'/>
+        <path fill='#FFF' d='M810 450 Q720 600 900 600 Q810 500 810 450'/>
+        <path fill='#DDD' d='M990 450 Q900 600 1080 600 Q990 500 990 450'/>
+        
+        <!-- Pétale 3 -->
+        <path fill='#222' d='M90 750 Q0 900 180 900 Q90 800 90 750'/>
+        <path fill='#DDD' d='M270 750 Q360 600 180 600 Q270 700 270 750'/>
+        <path fill='#FFF' d='M450 750 Q540 600 360 600 Q450 700 450 750'/>
+        <path fill='#666' d='M630 750 Q540 900 720 900 Q630 800 630 750'/>
+        <path fill='#222' d='M810 750 Q720 900 900 900 Q810 800 810 750'/>
+        <path fill='#222' d='M990 750 Q900 900 1080 900 Q990 800 990 750'/>
+        
+        <!-- Pétale 4 -->
+        <path fill='#DDD' d='M0 300 Q-90 450 90 450 Q0 400 0 300'/>
+        <path fill='#444' d='M180 300 Q90 450 270 450 Q180 400 180 300'/>
+        <path fill='#FFF' d='M360 300 Q270 450 450 450 Q360 400 360 300'/>
+        <path fill='#AAA' d='M540 300 Q630 450 450 450 Q540 400 540 300'/>
+        <path fill='#FFF' d='M720 300 Q630 450 810 450 Q720 400 720 300'/>
+        <path fill='#666' d='M900 300 Q810 450 990 450 Q900 400 900 300'/>
+        
+        <!-- Pétale 5 -->
+        <path fill='#FFF' d='M0 600 Q-90 750 90 750 Q0 700 0 600'/>
+        <path fill='#666' d='M180 600 Q90 750 270 750 Q180 700 180 600'/>
+        <path fill='#AAA' d='M360 600 Q270 750 450 750 Q360 700 360 600'/>
+        <path fill='#444' d='M540 600 Q630 750 450 750 Q540 700 540 600'/>
+        <path fill='#444' d='M720 600 Q630 750 810 750 Q720 700 720 600'/>
+        <path fill='#999' d='M900 600 Q990 750 810 750 Q900 700 900 600'/>
+        
+        <!-- Pétale 6 -->
+        <path fill='#222' d='M1080 300 Q990 450 1170 450 Q1080 400 1080 300'/>
+        <path fill='#FFF' d='M1080 600 Q990 750 1170 750 Q1080 700 1080 600'/>
+        <path fill='#DDD' d='M1080 900 Q990 750 1170 750 Q1080 800 1080 900'/>
+      </g>
+    </pattern>
+  </defs>
+  <rect x='0' y='0' fill='url(#a)' width='100%' height='100%'/>
+  <rect x='0' y='0' fill='url(#b)' width='100%' height='100%'/>
+</svg>
