@@ -374,7 +374,8 @@ textarea {
         margin-bottom: 4rem; }
 
 .projects{
-  background: #ffd9dfff; ;
+  background: #ffd9dfff; 
+  padding-top: 150px;
 }
 .projects__row {
   display: grid;
@@ -396,7 +397,9 @@ textarea {
   .projects__row-img {
     width: 100%;
     display: block;
-    object-fit: cover; }
+    object-fit: contain;
+    border-radius: 20px;
+    border: 5px solid #fff;}
   .projects__row-content {
     padding: 2rem 0;
     display: flex;
@@ -409,7 +412,10 @@ textarea {
     .projects__row-content-title {
       font-weight: 700;
       font-size: 2.8rem;
-      margin-bottom: 2rem; }
+      margin-bottom: 2rem; 
+      color: white;
+      font-family: optimacomfort;
+    }
       @media only screen and (max-width: 37.5em) {
         .projects__row-content-title {
           font-size: 2.4rem; } }
@@ -537,11 +543,14 @@ textarea {
   margin: auto; }
   .project-details__content-title {
     font-weight: 700;
-    font-size: 2.8rem;
-    margin-bottom: 3rem; }
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffff;}
     @media only screen and (max-width: 37.5em) {
       .project-details__content-title {
-        font-size: 2.4rem; } }
+        font-size: 2.4rem;
+      ; } }
 
 .project-details__showcase-img-cont {
   width: 100%;
@@ -596,6 +605,8 @@ textarea {
 
 .header {
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   z-index: 1000;
   background: #000;
@@ -631,8 +642,6 @@ textarea {
   object-position: center;
   display: block;
 }
-
-      
   .header__logo-sub {
     font-size: 1.8rem;
     text-transform: uppercase;
@@ -647,13 +656,13 @@ textarea {
     padding: 2.2rem 3rem;
     display: inline-block;
     font-size: 1.6rem;
-    color: #333;
+    color: #ff34ccef;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
     transition: color .3s; }
     .header__link:hover {
-      color: #ff34ccef; }
+      color: #fc8eac; }
     @media only screen and (max-width: 56.25em) {
       .header__link {
         padding: 3rem 1.8rem;
@@ -801,3 +810,46 @@ textarea {
   to {
     opacity: 0;
     top: 27px; } }
+    .competences {
+      background: #fc8eac;
+    }
+    
+    .competences-container {
+      margin-top: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      flex-direction: column;
+    }
+    
+    .grid-container {
+      display: flex; 
+      gap: 10px; 
+      align-items: center;
+    }
+    
+    .section {
+      flex: 1; 
+      padding: 20px;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: medium;
+      color: #fff;
+    }
+    
+    .icon {
+      width: 70px;
+      height: 70px;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 10px;
+      margin-top: 10px;
+    }
+    .tech {
+      width: 50px;
+      height: 50px;
+      display: inline-block;
+      margin-right: 10px;
+      margin-top: 10px;
+    }
+  
