@@ -135,7 +135,7 @@ textarea {
 .main-container {
   max-width: 120rem;
   margin: auto;
-  width: 92%; }
+  width: 95%; }
 
 .btn {
   background: #fff;
@@ -399,7 +399,11 @@ textarea {
     display: block;
     object-fit: contain;
     border-radius: 20px;
-    border: 5px solid #fff;}
+    border: 5px solid #fff;
+    }
+    .firefighters-img{
+      max-width: 600px;
+    }
   .projects__row-content {
     padding: 2rem 0;
     display: flex;
