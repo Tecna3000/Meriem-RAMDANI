@@ -69,14 +69,17 @@
     </header>
 
 
-    <section id="projects" class="projects sec-pad, projects">
+    <section id="projects" class="projects sec-pad ">
       <div class="main-container">
 
         <div class="projects__content">
           <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img src=".\assets\projects-pic\hobbyzoo.png" class="projects__row-img hobbyzoo-img"/>
+            <div class="hobbyzoo-img-cont">
+              <img src=".\assets\projects-pic\hobbyzoo.png" class="hobbyzoo-img"/>
+              <img src=".\assets\projects-pic\hobbyzoo2.png" class=" hobbyzoo-img"/>
+
             </div>
+            
             <div class="projects__row-content">
               <h3 class="projects__row-content-title">HobbyZoo</h3>
               <p class="projects__row-content-desc">
@@ -96,10 +99,25 @@
                 <a href="https://github.com/Tecna3000/HobbyZooApp" class="btn btn--med btn--theme project-details__links-btn" target="_blank">Code Link</a>
             </div>
           </div>
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img src=".\assets\projects-pic\firefighters.png" class="projects__row-img firefighters-img"/>
+
+          <div class="projects__row fire-fighters-project">
+            <div class="project-left-column">
+              <div class="firefighters">
+                <video id="video1" class="projects__row-video" controls>
+                  <source src="./assets\projects-vid\firefighters.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              <video id="video2" class="projects__row-video" controls style="display: none;">
+                <source src="./assets\projects-vid\pandemic.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>            
             </div>
+            <button id="nextButton" class="btn next-btn"> Suivant </button>
+          </div>
+                    
+
+
+          <div class="project-right-column">
             <div class="projects__row-content">
               <h3 class="projects__row-content-title">FireFighters</h3>
               <p class="projects__row-content-desc">
@@ -117,12 +135,17 @@
                   </div>
                 </div>
                 <a href="https://github.com/Tecna3000/FireFighters" class="btn btn--med btn--theme project-details__links-btn" target="_blank">Code Link</a>
+              </div>
             </div>
           </div>
+          
 
           <div class="projects__row">
             <div class="projects__row-img-cont">
-              <img src=".\assets\projects-pic\signe-moi.png" class="projects__row-img"/>
+              <video class="projects__row-video" controls>
+                <source src="./assets\projects-vid\correcteur.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
             </div>
             <div class="projects__row-content">
               <h3 class="projects__row-content-title">Correcteur orthographique</h3>
@@ -141,17 +164,6 @@
                 <a href="https://github.com/Tecna3000/Correcteur-Orthographique" class="btn btn--med btn--theme project-details__links-btn" target="_blank">Code Link</a>
             </div>
           </div>
-
-
-
-
-
-
-
-
-
-
-
 
           <div class="projects__row">
             <div class="projects__row-img-cont">
